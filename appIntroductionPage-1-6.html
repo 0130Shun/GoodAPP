@@ -75,7 +75,7 @@
         <div class="btn">
             <ul>
                 <li><button type="button" class="scoreCommentBtn">撰寫評論 / 評分</button></li>
-                <li><button type="button">分享</button></li>
+                <li><button type="button" class="shareBtn">分享</button></li>
                 <li><button type="button">收藏</button></li>
                 <li><button type="button">下載</button></li>
             </ul>
@@ -167,17 +167,22 @@
             </ul>
         </div>
     </div>
-    <section class="modal hidden">
-        <div class="flex">
-          <img src="user.png" width="50px" height="50px" alt="user" />
-          <button class="btn-close">⨉</button>
+    <section class="commentModal hidden">
+        <div class="commentFlex">
+            <span>撰寫評論</span>
+            <button class="commentBtnClose">⨉</button>
         </div>
-        <div>
-          <h3>Stay in touch</h3>（保持联系）
-          <p>
-            This is a dummy newsletter form so don't bother trying to test it. Not
-            that I expect you to, anyways.:)（这是一个虚拟的通讯表单，所以不要费心去测试它。反正我也不指望你这么做）
-          </p>
+        <div class="commentText">
+            <textarea rows="10" placeholder="請輸入你的評論"></textarea>
+        </div>
+        <div class="sendBtn">
+            <button>送出</button>
+        </div>
+    </section>
+    <section class="shareModal hidden">
+        <div class="shareFlex">
+            <span>分享</span>
+            <button class="shareBtnClose">⨉</button>
         </div>
     </section>
     <div class="overlay hidden"></div>
