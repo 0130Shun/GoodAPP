@@ -155,7 +155,7 @@
         <div class="footer">
             <span><a href="#">好用APP</a></span>
             <ul class="footerIcon">
-                <li><a href="#" class="fackbook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
             </ul>
@@ -173,10 +173,10 @@
             <button class="commentBtnClose">⨉</button>
         </div>
         <div class="commentText">
-            <textarea rows="10" placeholder="請輸入你的評論"></textarea>
+            <textarea rows="10" id="comment" placeholder="請輸入你的評論"></textarea>
         </div>
         <div class="sendBtn">
-            <button>送出</button>
+            <button class="send">送出</button>
         </div>
     </section>
     <section class="shareModal hidden">
@@ -184,9 +184,29 @@
             <span>分享</span>
             <button class="shareBtnClose">⨉</button>
         </div>
+        <div class="shareBtn">
+            <ul class="shareBtnList">
+                <li class="facebookList">
+                    <a href="#" class="facebook" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <span>Facebook</span>
+                </li>
+                <li class="instagramList">
+                    <a href="#" class="instagram" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <span>Instagram</span>
+                </li>
+                <li class="twitterList">
+                    <a href="#" class="twitter" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <span>Twitter</span>
+                </li>
+                <li class="lineList">
+                    <a href="#" title="line"><i class="fa-brands fa-line"></i></a>
+                    <span>Line</span>
+                </li>
+            </ul>
+        </div>
     </section>
     <div class="overlay hidden"></div>
-    <script src="https://kit.fontawesome.com/266ec3d451.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ccca43d0ca.js" crossorigin="anonymous"></script>
     <script src="JS/appIntroductionPage-1-6.js"></script>
 </body>
 </html>

@@ -31,7 +31,7 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: black;
-}
+}/*  */
 .line{
     border-right: 1px solid rgba(75, 73, 201, 1);
     border-left: 1px solid rgba(75, 73, 201, 1);
@@ -282,7 +282,7 @@ body{
     color: #222;
     position: relative;
 }
-.commentModal,.shareModal{
+.commentModal{
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -296,6 +296,23 @@ body{
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 15px;
+    position: fixed;
+}
+.shareModal{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 450px;
+    padding: 2rem;
+    min-height: 100px;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: fixed;
 }
 .commentFlex,.shareFlex{
     display: flex;
@@ -303,7 +320,7 @@ body{
     justify-content: space-between;
 }
 .commentFlex span,.shareFlex span{
-    font-size: 32px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .commentBtnClose,.shareBtnClose{
@@ -330,6 +347,8 @@ body{
 .commentText textarea{
     width: 450px;
 }
+
+/*分享彈跳視窗頁面*/
 .sendBtn{
     display: flex;
     justify-content: flex-end;
@@ -342,3 +361,28 @@ body{
     border-radius: 10px;
     color: white;
 }
+
+/* 分享彈跳視窗頁面按鈕 */
+.shareBtnList{
+    display: flex;
+    justify-content: space-around;
+}
+.shareBtnList li span{
+    text-align: center;
+}
+.shareBtnList li a{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.facebookList,.instagramList,.twitterList,.lineList{
+    display: flex;
+    flex-direction: column;
+}
+.twitterList a{
+    color: #08a0e9;
+}
+.lineList a{
+    color: #008900;
+}
+
