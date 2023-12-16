@@ -33,7 +33,6 @@
     color: black;
 }/*  */
 .line{
-    border-right: 1px solid rgba(75, 73, 201, 1);
     border-left: 1px solid rgba(75, 73, 201, 1);
 }
 .header ul li .registerBtn{
