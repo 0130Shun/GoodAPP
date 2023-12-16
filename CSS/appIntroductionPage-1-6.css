@@ -33,6 +33,7 @@
     color: black;
 }/*  */
 .line{
+
     border-left: 1px solid rgba(75, 73, 201, 1);
 }
 .header ul li .registerBtn{
@@ -266,9 +267,11 @@
 .footerMenu{
     display: flex;
     align-items: center;
+    
 }
 .footer .footerMenu li a{
     padding: 10px 10px;
+    color: black;
 }
 .footerLine{
     border-left: 1px solid rgba(75, 73, 201, 1);
@@ -385,3 +388,6 @@ body{
     color: #008900;
 }
 
+.facebook,.instagram,.twitter{
+    color: #1760de;
+} 
